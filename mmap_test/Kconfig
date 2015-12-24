@@ -1,0 +1,12 @@
+#
+# Testing mmap
+#
+
+menuconfig MMAP_TEST
+	tristate "Arvind's simple mmap driver test"
+	default m
+	help
+	  To compile this driver as a module, choose M here: the module will
+	  be called mmap_test 
+
+	  If you are not sure, say N here.
